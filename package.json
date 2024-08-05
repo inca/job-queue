@@ -1,0 +1,46 @@
+{
+    "name": "@inca/job-queue",
+    "version": "1.0.0",
+    "description": "Dead-simple Promise queue with concurrency control and timeout",
+    "type": "module",
+    "exports": {
+        ".": "./out/main/index.js"
+    },
+    "scripts": {
+        "dev": "tsc -b -w",
+        "lint": "eslint --ext=.js,.ts,.vue --cache .",
+        "test": "NODE_ENV=test mocha",
+        "version": "npm run compile",
+        "postversion": "npm publish --access=public && git push --tags origin main"
+    },
+    "pre-commit": [
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inca/job-queue.git"
+    },
+    "keywords": [
+        "promise",
+        "job",
+        "queue",
+        "async",
+        "concurrent",
+        "task"
+    ],
+    "author": "Boris Okunskiy",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/inca/job-queue/issues"
+    },
+    "homepage": "https://github.com/inca/job-queue#readme",
+    "devDependencies": {
+        "@nodescript/eslint-config": "^1.2.0",
+        "@types/mocha": "^10.0.7",
+        "@types/node": "^22.1.0",
+        "eslint": "^8.57.0",
+        "mocha": "^10.7.0",
+        "pre-commit": "^1.2.2",
+        "typescript": "^5.5.4"
+    }
+}

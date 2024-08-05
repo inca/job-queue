@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "strict": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": false,
+        "noImplicitOverride": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "composite": true,
+        "rootDir": "src",
+        "outDir": "out",
+    },
+    "include": [
+        "src"
+    ]
+}
