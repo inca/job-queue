@@ -1,6 +1,6 @@
 {
     "name": "@inca/job-queue",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Dead-simple Promise queue with concurrency control and timeout",
     "type": "module",
     "exports": {
@@ -8,6 +8,7 @@
     },
     "scripts": {
         "dev": "tsc -b -w",
+        "compile": "tsc -b",
         "lint": "eslint --ext=.js,.ts,.vue --cache .",
         "test": "NODE_ENV=test mocha",
         "version": "npm run compile",
