@@ -1,6 +1,6 @@
 {
     "name": "@inca/job-queue",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "description": "Dead-simple Promise queue with concurrency control and timeout",
     "type": "module",
     "exports": {
